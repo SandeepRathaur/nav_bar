@@ -1,0 +1,81 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    padding-top: 80px; /* To account for the fixed nav */
+  }
+  
+  section {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Navigation Bar Styles */
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navbar li {
+    margin: 0 15px;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Hover Effects */
+  #navbar a:hover {
+    background-color: #575757;
+    color: #ffcc00;
+  }
+  
+  /* Scroll Effect */
+  .scrolled {
+    background-color: #222;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Section Styles */
+  #home {
+    background-color: #f4f4f4;
+  }
+  
+  #about {
+    background-color: #ddd;
+  }
+  
+  #services {
+    background-color: #bbb;
+  }
+  
+  #contact {
+    background-color: #999;
+  }
+  
